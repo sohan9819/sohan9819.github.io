@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.fontawesome.com/59b134a0df.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="node_modules/aos/dist/aos.css" /> -->
+    <script
+      src="https://kit.fontawesome.com/4e42edf8a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <section class="section-1" data-aos="fade-up" dir="ltr">
+      <h1 class="title">Hello , I am <span id="name"> Your Name </span></h1>
+      <p class="subtitle">Welcome to my portfolio</p>
+      <p class="down-arrow">
+        <a href="#section2"
+          ><i class="fa fa-angle-double-down" aria-hidden="true"></i
+        ></a>
+      </p>
+    </section>
+    <!-- <section id="section2"></section> -->
+    <section class="section-2" data-aos="fade-up" id="section2" dir="ltr">
+      <div class="profile-box" data-aos="zoom-in-up">
+        <img
+        id="profile_image"
+          src=""
+          style="width: 400px; height: 450px"
+          alt=""
+          class="profile"
+        />
+      </div>
+      <div class="about-box">
+        <h1 class="about-title" data-aos="zoom-in">Who am I ?</h1>
+        <p><span id="fullname"> Your Full Name </span></p>
+        <p class="about-content" data-aos="zoom-in">
+          <span id="about">
+            About you 
+          </span>
+        </p>
+      </div>
+    </section>
+    <section class="section-3" data-aos="fade-up" dir="ltr">
+      <div class="portfolio">
+        <div class="portfolio-item medium one" data-aos="fade-right"><span id="skill-1"> Skill 1 </span></div>
+        <div class="portfolio-item large two" data-aos="fade-up"><span id="skill-2"> Skill 2 </div>
+        <div class="portfolio-item medium three" data-aos="fade-right"><span id="skill-3"> Skill 3 </div>
+        <div class="portfolio-item small four" data-aos="zoom-in">Skills</div>
+        <div class="portfolio-item tall five" data-aos="fade-up"><span id="skill-4"> Skill 4 </div>
+        <div class="portfolio-item wide six" data-aos="fade-right"><span id="skill-5"> Skill 5 </div>
+      </div>
+    </section>
+    <section class="section-4" data-aos="fade-up" dir="ltr">
+      <h2 class="contact" data-aos="flip-up">Contact Me</h2>
+      <ul class="social-logos">
+        <li data-aos="zoom-in-up"><a target="_blank" id="instagram" href=""><i class="fab fa-instagram-square"></i></a></li>
+        <li data-aos="zoom-in-up"><a target="_blank" id="twitter" href=""><i class="fab fa-twitter-square"></i></a></li>
+        <li data-aos="zoom-in-up"><a target="_blank" id="github" href=""><i class="fab fa-github-square"></i></a></li>
+        <li data-aos="zoom-in-up"><a target="_blank" id="linkedin" href=""><i class="fab fa-linkedin-square"></i></a></li>
+      </ul>
+    </section>
+
+    <!-- <script src="node_modules/aos/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{ 
+    "section1" : {
+        "name" : "Sohan"
+    },
+    "section2" : {
+        "full_name" : "Sohan Shetty",
+        "about" : "Hello World ! My name Is Sohan. I am designer and a developer.",
+        "profile_image": "./images/Sohan_4.png"
+    },
+    "section3" : {
+        "skill_1": "C",
+        "skill_2": "Python",
+        "skill_3": "C++",
+        "skill_4": "JS",
+        "skill_5": "Java"
+    },
+    "section4" : {
+        "instagram" : "https://www.instagram.com/invites/contact/?i=1qkb0n54cvgox&utm_content=kthr0lb",
+        "twitter" : "https://twitter.com/SnickerDev?s=08",
+        "github" : "https://github.com/sohan9819",
+        "linkedin" : "https://www.linkedin.com/in/sohan-shetty-8ab3191a0"
+    }   
+}

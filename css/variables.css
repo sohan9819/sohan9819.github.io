@@ -1,0 +1,13 @@
+:root {
+  --font-main: "Source Code Pro", monospace;
+  --font-secondary: "Source Sans Pro", sans-serif;
+  --font-light: 300;
+  --font-bold: 800;
+  --cream-white: hsl(47.1, 100%, 97.3%);
+  --teal: teal;
+  --black: #353535;
+  --gray: #4f4f4f;
+  --medium-gray: #737373;
+  --light-gray: #c4c4c4;
+  --orange: #f96855;
+}
